@@ -9,7 +9,6 @@ FetchContent_Declare(
     GIT_TAG v2.12.0)
 FetchContent_MakeAvailable(pybind11)
 
-find_package(pybind11)
 
 add_library(ale-py MODULE ale_python_interface.cpp)
 # Depend on the ALE and pybind11 module
