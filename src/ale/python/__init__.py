@@ -45,7 +45,7 @@ except metadata.PackageNotFoundError:
     __version__ = "unknown"
 
 # Import native shared library
-from ale_py._ale_py import (  # noqa: E402
+from ._ale_py import (  # noqa: E402
     SDL_SUPPORT,
     Action,
     ALEInterface,
